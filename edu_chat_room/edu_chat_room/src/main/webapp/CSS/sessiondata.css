@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body, html{
+    margin: 0;
+    color: white;
+    font-family: PS TT Commons Roman,Gotham SSm A,Gotham SSm B,Arial,sans-serif;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(11, 12, 15.5);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.table {
+    width: 85%;
+    border: 1px solid white;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+.table .row, .head {
+    height: 10px;
+    border: 1px solid white;
+
+}
+.data {
+    border: 1px solid white;
+}
+.buttonOne .button{
+    width: 330px;
+    height: 38px;
+    background-color: rgb(16, 111, 194);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
